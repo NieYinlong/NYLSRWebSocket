@@ -27,6 +27,8 @@
         
     };
     
+    // 发送消息
+    [[NYLWebSocketManager shareManager] sendData:@{}];
     
     // 收到消息的回调
     [NYLWebSocketManager shareManager].wsReceivedMsgBlock = ^(id  _Nonnull data) {

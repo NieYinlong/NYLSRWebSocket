@@ -26,6 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NYLWebSocketManager *)shareManager;
 - (void)connectWebSocketWithSocketAddr:(NSString *)addr;
+- (void)sendData:(id)data;
 - (void)closeWebSocketActively;
 - (void)sendMsg:(NSString *)msg imgUrlStr:(NSString *)imgUrlStr detailID:(NSNumber *)detailID;
 

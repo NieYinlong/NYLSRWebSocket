@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NYLSRWebSocket'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = '针对SRWebSocket的封装'
   s.homepage         = 'https://github.com/nieyinlong/NYLSRWebSocket'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

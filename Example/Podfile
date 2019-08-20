@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'NYLSRWebSocket_Example' do
+  pod 'NYLSRWebSocket', :path => '../'
+
+  target 'NYLSRWebSocket_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

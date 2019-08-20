@@ -1,0 +1,6 @@
+framework module Pods_NYLSRWebSocket_Example {
+  umbrella header "Pods-NYLSRWebSocket_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

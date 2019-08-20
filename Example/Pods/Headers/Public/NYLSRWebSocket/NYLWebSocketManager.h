@@ -1,0 +1,1 @@
+../../../../../NYLSRWebSocket/Classes/NYLWebSocketManager.h

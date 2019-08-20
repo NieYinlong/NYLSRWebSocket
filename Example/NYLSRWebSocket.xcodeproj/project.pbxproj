@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4126130A827FCD980C0C7C6E /* libPods-NYLSRWebSocket_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCF6FD112C74FD4FC243873 /* libPods-NYLSRWebSocket_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D5C6E631783CA232C9549BB7 /* Pods_NYLSRWebSocket_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8655AAAD6FD9E4BAB9CB8A7 /* Pods_NYLSRWebSocket_Tests.framework */; };
-		ED5DBCAF96FC45B285A1E29E /* Pods_NYLSRWebSocket_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1E4E1CAC0E86B6B4F152C6 /* Pods_NYLSRWebSocket_Example.framework */; };
+		901DFBF7A08E7AAC56D26C6A /* libPods-NYLSRWebSocket_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 528110A429072EF85F45EFD2 /* libPods-NYLSRWebSocket_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		1506B6198E641CCD7D20245F /* Pods-NYLSRWebSocket_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYLSRWebSocket_Example.release.xcconfig"; path = "Target Support Files/Pods-NYLSRWebSocket_Example/Pods-NYLSRWebSocket_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2D9FB514D6DABA9335ABD585 /* Pods-NYLSRWebSocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYLSRWebSocket_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NYLSRWebSocket_Tests/Pods-NYLSRWebSocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		528110A429072EF85F45EFD2 /* libPods-NYLSRWebSocket_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYLSRWebSocket_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* NYLSRWebSocket_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYLSRWebSocket_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +62,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73660182CF3566B85035B8AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AC1E4E1CAC0E86B6B4F152C6 /* Pods_NYLSRWebSocket_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYLSRWebSocket_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCF6FD112C74FD4FC243873 /* libPods-NYLSRWebSocket_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NYLSRWebSocket_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5570AAB9DE6E3EEADAB153A /* NYLSRWebSocket.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NYLSRWebSocket.podspec; path = ../NYLSRWebSocket.podspec; sourceTree = "<group>"; };
 		DAB9BF9EB21EEC9B99E04966 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DCF73ABAA02904237565D49A /* Pods-NYLSRWebSocket_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYLSRWebSocket_Example.debug.xcconfig"; path = "Target Support Files/Pods-NYLSRWebSocket_Example/Pods-NYLSRWebSocket_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F757C113C92F97F5AB36E96A /* Pods-NYLSRWebSocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYLSRWebSocket_Tests.release.xcconfig"; path = "Target Support Files/Pods-NYLSRWebSocket_Tests/Pods-NYLSRWebSocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F8655AAAD6FD9E4BAB9CB8A7 /* Pods_NYLSRWebSocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYLSRWebSocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				ED5DBCAF96FC45B285A1E29E /* Pods_NYLSRWebSocket_Example.framework in Frameworks */,
+				4126130A827FCD980C0C7C6E /* libPods-NYLSRWebSocket_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D5C6E631783CA232C9549BB7 /* Pods_NYLSRWebSocket_Tests.framework in Frameworks */,
+				901DFBF7A08E7AAC56D26C6A /* libPods-NYLSRWebSocket_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				AC1E4E1CAC0E86B6B4F152C6 /* Pods_NYLSRWebSocket_Example.framework */,
-				F8655AAAD6FD9E4BAB9CB8A7 /* Pods_NYLSRWebSocket_Tests.framework */,
+				BFCF6FD112C74FD4FC243873 /* libPods-NYLSRWebSocket_Example.a */,
+				528110A429072EF85F45EFD2 /* libPods-NYLSRWebSocket_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				63A2C15AB5A1A16E48640AD8 /* [CP] Embed Pods Frameworks */,
+				C1A9867EB6628F8CD9ACC009 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,24 +317,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		63A2C15AB5A1A16E48640AD8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NYLSRWebSocket_Example/Pods-NYLSRWebSocket_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/NYLSRWebSocket/NYLSRWebSocket.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NYLSRWebSocket.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYLSRWebSocket_Example/Pods-NYLSRWebSocket_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9558E49C79FCE7DE5888F750 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,6 +337,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A9867EB6628F8CD9ACC009 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYLSRWebSocket_Example/Pods-NYLSRWebSocket_Example-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYLSRWebSocket_Example/Pods-NYLSRWebSocket_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
